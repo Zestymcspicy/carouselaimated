@@ -1,0 +1,38 @@
+.carousel-container {
+  display: inline-flex;
+  justify-content: space-around;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+img {
+  height: 800px;
+  margin: 1em;
+}
+
+.image-right-container {
+  width: 80%;
+ }
+
+.image-left-container {
+  width: 80%;
+}
+
+.main-image-container {
+  width: 80%;
+  align-self: center;
+}
+
+#arrow-right {
+  position: relative;
+  left: 90%;
+}
+
+.nav-button {
+  height: 40px;
+  width: 40px;
+  margin:0px;
+  border: 1px solid black;
+  border-radius: 5%;
+  text-align: center;
+}
