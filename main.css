@@ -23,16 +23,29 @@ img {
   align-self: center;
 }
 
-#arrow-right {
-  position: relative;
-  left: 90%;
-}
+
 
 .nav-button {
-  height: 40px;
-  width: 40px;
-  margin:0px;
+  z-index: 5;
+  padding: 27% 0 0 0;
+  height: 50%;
+  width: 5%;
   border: 1px solid black;
   border-radius: 5%;
   text-align: center;
+  position: fixed;
+  opacity: 0.5;
+  background-color: #909090;
+}
+
+.nav-button:hover {
+  cursor: pointer;
+}
+
+#arrow-right {
+  right: 10%;
+}
+
+#arrow-left {
+  left: 10%;
 }
