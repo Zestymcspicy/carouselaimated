@@ -1,28 +1,18 @@
-.carousel-container {
+#slider {
   display: inline-flex;
   justify-content: space-around;
   overflow-x: hidden;
   width: 100%;
 }
 
+.item {
+  transition: transform .25s;
+}
+
 img {
   height: 800px;
   margin: 1em;
 }
-
-.image-right-container {
-  width: 80%;
- }
-
-.image-left-container {
-  width: 80%;
-}
-
-.main-image-container {
-  width: 80%;
-  align-self: center;
-}
-
 
 
 .nav-button {
