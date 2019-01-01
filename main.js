@@ -31,14 +31,11 @@ function computeBounds() {
 }
 
 function scrollRight() {
-  // computeBounds();
+  let newNode;
   offset+=translateWidth;
   items.forEach(x => x.style.transform = `translateX(${offset}px)`);
   rightMost = items.filter(x => x.getBoundingClientRect().x  > rightBound+100)[0];
-  if (rightMost) {
-    // rightMost.style.transfrom = `translateX(${leftBound})`;
-    rightMost.remove();
-    slider.firstChild.before(rightMost);
+
   };
 };
 
