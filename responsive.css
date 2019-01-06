@@ -1,0 +1,23 @@
+@media screen and (min-width: 801px) {
+  .item{
+    height: 800px;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  .item{
+    max-height: 600px;
+    width:auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .item{
+    max-height: 300px;
+  }
+  .nav-button {
+    top: 20%;
+    height: 20%;
+  }
+}
