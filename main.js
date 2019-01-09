@@ -37,7 +37,7 @@ function scrollRight() {
   rightMost.remove();
   slider.prepend(rightMost);
   items.forEach(x=>x.classList.remove("animated-right"));
-}, 450);
+}, 499);
 };
 
 function scrollLeft() {

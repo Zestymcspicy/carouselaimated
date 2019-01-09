@@ -12,9 +12,13 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .item{
     max-height: 300px;
+  }
+  .my-header {
+    font-size: 14px;
+    height: 5px;
   }
   .nav-button {
     top: 20%;
