@@ -23,7 +23,7 @@ body {
 
 
 .item {
-  height: 800px;
+  height: 700px;
   margin: 1em;
 }
 
@@ -34,8 +34,8 @@ img {
 .nav-button {
   z-index: 5;
   padding: 27% 0 0 0;
-  height: 50%;
-  max-height: 600px;
+  height: 35%;
+  max-height: 400px;
   width: 5%;
   min-width: 40px;
   border: 1px solid black;
@@ -72,19 +72,7 @@ img {
     transform: translateX(0px);
   }
   99%{
-    transform: translateX(110%);
-  }
-  100%{
-    transform: translateX(0px);
-  }
-}
-
-@keyframes slideLeft {
-  0% {
-    transform: translateX(0px);
-  }
-  99%{
-    transform: translateX(-110%);
+    transform: translateX(105%);
   }
   100%{
     transform: translateX(0px);
